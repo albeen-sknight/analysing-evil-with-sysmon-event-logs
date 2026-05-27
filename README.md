@@ -86,85 +86,85 @@ This project demonstrates the following SOC Analyst skills:
 
 ---
 
-## Screenshot Placeholders
+## Evidence Screenshots
 
-Replace these placeholders with your screenshots after uploading them to a GitHub `screenshots/` folder.
+> Sensitive lab values such as passwords, target IPs, and answer hashes should be redacted before screenshots are committed.
 
-### Screenshot 1: RDP Connection to Windows Target
+### 01. RDP connection command
 
-![Screenshot 1 - RDP Connection](screenshots/01-rdp-connection.png)
+![RDP connection command](assets/screenshots/01-rdp-connection-command.png)
 
-### Screenshot 2: Windows Target Desktop
+### 02. Sysmon ImageLoad rule configuration
 
-![Screenshot 2 - Windows Target Desktop](screenshots/02-windows-desktop.png)
+![Sysmon ImageLoad rule configuration](assets/screenshots/02-sysmon-config-imageload-rule.png)
 
-### Screenshot 3: Tools Directory
+### 03. Sysmon configuration updated and Reflective DLL folder
 
-![Screenshot 3 - Tools Directory](screenshots/03-tools-directory.png)
+![Sysmon configuration updated and Reflective DLL folder](assets/screenshots/03-sysmon-config-updated-reflective-dll-folder.png)
 
-### Screenshot 4: Sysmon Folder Contents
+### 04. DLL hijack folder and WININET copy
 
-![Screenshot 4 - Sysmon Folder](screenshots/04-sysmon-folder.png)
+![DLL hijack folder and WININET copy](assets/screenshots/04-dll-hijack-folder-wininet-copy.png)
 
-### Screenshot 5: Sysmon Configuration File
+### 05. DLL hijacking execution with DllMain popup
 
-![Screenshot 5 - Sysmon Config](screenshots/05-sysmon-config.png)
+![DLL hijacking execution with DllMain popup](assets/screenshots/05-dll-hijacking-execution-dllmain-popup.png)
 
-### Screenshot 6: Sysmon Operational Log Location
+### 06. Sysmon WININET image load event
 
-![Screenshot 6 - Sysmon Operational Log](screenshots/06-sysmon-operational-log.png)
+![Sysmon WININET image load event](assets/screenshots/06-sysmon-wininet-image-load-event.png)
 
-### Screenshot 7: Sysmon Event ID Filtering
+### 07. WININET SHA256 Get-FileHash output
 
-![Screenshot 7 - Sysmon Event ID Filter](screenshots/07-sysmon-event-filter.png)
+![WININET SHA256 Get-FileHash output](assets/screenshots/07-wininet-sha256-get-filehash.png)
 
-### Screenshot 8: Reflective DLL Injection Folder
+### 08. Sysmon Event ID 7 Event Viewer details
 
-![Screenshot 8 - Reflective DLL Injection Folder](screenshots/08-reflective-dll-folder.png)
+![Sysmon Event ID 7 Event Viewer details](assets/screenshots/08-sysmon-event-7-event-viewer-details.png)
 
-### Screenshot 9: Malicious WININET.dll Created or Copied
+### 09. PSInject folder and Event ID 7 confirmation
 
-![Screenshot 9 - Malicious WININET DLL](screenshots/09-malicious-wininet-dll.png)
+![PSInject folder and Event ID 7 confirmation](assets/screenshots/09-psinject-folder-event-id-7-confirmation.png)
 
-### Screenshot 10: DLL Hijacking Execution
+### 10. PSInject spoolsv injection query
 
-![Screenshot 10 - DLL Hijacking Execution](screenshots/10-dll-hijacking-execution.png)
+![PSInject spoolsv injection query](assets/screenshots/10-psinject-spoolsv-injection-query.png)
 
-### Screenshot 11: Sysmon WININET.dll Load Event
+### 11. Sysmon spoolsv clrjit image load hash
 
-![Screenshot 11 - Sysmon WININET Load](screenshots/11-sysmon-wininet-load.png)
+![Sysmon spoolsv clrjit image load hash](assets/screenshots/11-sysmon-spoolsv-clrjit-image-load-hash.png)
 
-### Screenshot 12: SHA256 Hash of Malicious WININET.dll
+### 12. Question 2 answer accepted
 
-![Screenshot 12 - WININET SHA256 Hash](screenshots/12-wininet-sha256-hash.png)
+![Question 2 answer accepted](assets/screenshots/12-question-2-answer-accepted.png)
 
-### Screenshot 13: PSInject Folder Contents
+### 13. Mimikatz folder contents
 
-![Screenshot 13 - PSInject Folder](screenshots/13-psinject-folder.png)
+![Mimikatz folder contents](assets/screenshots/13-mimikatz-folder-contents.png)
 
-### Screenshot 14: spoolsv.exe Process ID
+### 14. Mimikatz execution privilege debug
 
-![Screenshot 14 - spoolsv Process ID](screenshots/14-spoolsv-pid.png)
+![Mimikatz execution privilege debug](assets/screenshots/14-mimikatz-execution-privilege-debug.png)
 
-### Screenshot 15: Unmanaged PowerShell Injection Execution
+### 15. Mimikatz logonpasswords Administrator NTLM
 
-![Screenshot 15 - PSInject Execution](screenshots/15-psinject-execution.png)
+![Mimikatz logonpasswords Administrator NTLM](assets/screenshots/15-mimikatz-logonpasswords-administrator-ntlm.png)
 
-### Screenshot 16: Sysmon clrjit.dll Loaded by spoolsv.exe
+### 16. Select-String Administrator NTLM output
 
-![Screenshot 16 - clrjit Loaded by spoolsv](screenshots/16-clrjit-loaded-by-spoolsv.png)
+![Select-String Administrator NTLM output](assets/screenshots/16-select-string-administrator-ntlm-output.png)
 
-### Screenshot 17: SHA256 Hash of clrjit.dll
+### 17. Select-String username NTLM results
 
-![Screenshot 17 - clrjit SHA256 Hash](screenshots/17-clrjit-sha256-hash.png)
+![Select-String username NTLM results](assets/screenshots/17-select-string-username-ntlm-results.png)
 
-### Screenshot 18: Mimikatz Lab Execution
+### 18. Select-String NTLM results wide
 
-![Screenshot 18 - Mimikatz Execution](screenshots/18-mimikatz-execution.png)
+![Select-String NTLM results wide](assets/screenshots/18-select-string-ntlm-results-wide.png)
 
-### Screenshot 19: Administrator NTLM Hash Evidence
+### 19. Question 3 answer accepted
 
-![Screenshot 19 - Administrator NTLM Hash](screenshots/19-administrator-ntlm-hash.png)
+![Question 3 answer accepted](assets/screenshots/19-question-3-answer-accepted.png)
 
 ---
 
